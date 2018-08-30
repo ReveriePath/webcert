@@ -1,5 +1,5 @@
 # webcert
-A wrapper bash script to easily create an RSA private key and certificate request file for signing by a CA of your choosing.
+A wrapper bash script to easily create an RSA private key and certificate request file for a website for signing by a CA of your choosing on Linux, without having to fiddle around with openssl command details and trickery (in particular with generating a subjectAltName with the request).
 
 Before you use this script, unblock port 4444.
 - iptables -A INPUT -p tcp --dport 4444 -j ACCEPT
